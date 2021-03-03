@@ -8,7 +8,7 @@ public class P1_DataType_Demo {
 		System.out.println("status is :"+status);
 		
 		status = false;
-		System.out.println("status is :"+status);
+		System.out.println("status is :"+status); 
 		
 		char ch = 'j';
 		System.out.println("char value is: "+ch);
@@ -18,6 +18,8 @@ public class P1_DataType_Demo {
 		
 		ch=65;
 		System.out.println("char value is: "+ch); 
+		
+		// This is how we can add to Github
 		
 	}
 
