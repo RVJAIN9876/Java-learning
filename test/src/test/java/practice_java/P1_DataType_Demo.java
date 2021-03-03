@@ -19,7 +19,7 @@ public class P1_DataType_Demo {
 		ch=65;
 		System.out.println("char value is: "+ch); 
 		
-		// This is how we can add to Github
+		
 		
 	}
 
