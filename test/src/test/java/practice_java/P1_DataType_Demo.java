@@ -17,11 +17,7 @@ public class P1_DataType_Demo {
 		System.out.println("char value is: "+ch);
 		
 		ch=65;
-		System.out.println("char value is: "+ch); 
-		
-		
-		
+		System.out.println("char value is: "+ch); 		
 	}
-
 }
 
