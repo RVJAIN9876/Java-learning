@@ -1,6 +1,6 @@
 package Util;
-public class Calendar {
-	private String name;
+public class Calendar { 
+	private String name; 
 	private int day;
 	private int month;
 	private int year;
