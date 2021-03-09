@@ -7,15 +7,14 @@ public class Calendar {
 	private int [] month_code = {1,4,4,0,2,5,0,3,6,1,4,6};
 	private String[] dayofWeek = {"Sun","Mon","Tues","Wed","Thru","Fri","Sat"};
 	
-	public Calendar(String n, int d,int m, int y) {
-		name = n;
-		day=d;
-		month=m;
-		year=y;
+	public Calendar(String name, int day,int month, int year) {
+		this.name = name;
+		this.day=day;
+		this.month=month;
+		this.year=year;
 	}
 	private int getMonthCode() {
-		int mc = month_code[month-1];
-		return mc;
+		return  month_code[month-1];
 	}
 	private int getYearCode() {
 		int ycode=0;
@@ -36,13 +35,12 @@ public class Calendar {
 	}
 	
 	private int getYear() {
-		int yr = (int) Math.floorMod(year,100);
-		return yr;
+		return (int) Math.floorMod(year,100);
 	}
 	
 	private int getFactor() {
-		int factor = (int) Math.floorDiv(getYear(),4);
-		return factor;
+		return (int) Math.floorDiv(getYear(),4);
+		
 	}
 	
 	public void birthDayofWeek() {
